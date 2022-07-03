@@ -1,0 +1,13 @@
+body {
+    font-family: 'Arima', cursive;
+    margin: 0px;
+}
+
+.flexible {
+    display: flex;
+    margin: 100px;
+}
+
+.halfwidth {
+    width: 50%;
+}
