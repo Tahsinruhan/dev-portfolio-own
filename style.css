@@ -1,13 +1,56 @@
 body {
     font-family: 'Arima', cursive;
     margin: 0px;
+    font-size: 22px;
 }
 
 .flexible {
     display: flex;
-    margin: 100px;
+    margin-bottom: 100px;
 }
+
 
 .halfwidth {
     width: 50%;
+    padding-left: 6px;
+}
+
+.halfwidth img {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.banner {
+    background-image: url(ml.png);
+}
+
+h1 {
+    font-size: 55px;
+}
+
+span {
+    color: rgb(209, 149, 38);
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(151, 226, 226);
+    padding: 10px 41px;
+    background-image: linear-gradient(orange, brown);
+    font-weight: 700;
+}
+
+.bn {
+    padding-left: 35px;
+}
+
+.bner {
+    background-color: rgb(12, 12, 64);
+    background-image: url(maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.white {
+    color: aqua;
 }
